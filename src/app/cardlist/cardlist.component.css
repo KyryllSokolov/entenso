@@ -1,0 +1,60 @@
+.item-wrapper {
+  height: 520px;
+  vertical-align: center;
+  margin-bottom: 90px;
+  padding-bottom: 30px;
+}
+
+.item-wrapper:hover {
+  box-shadow: 0 0 17px rgba(33, 33, 33, .4);
+}
+
+.item-img {
+  height: 60%;
+  margin: auto;
+  padding: -30px;
+}
+
+a.item-no-decor {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filters {
+  padding: 40px 0px;
+}
+
+button.right {
+  float: right
+}
+
+.item-wrapper > div {
+  display: block;
+}
+
+.name-brand > h1, h3 {
+  text-decoration: none;
+}
+
+.brand-name {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.outstock {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: red;
+}
+
+.cardList {
+  min-height: 1000px;
+}
+
+#addItem {
+  z-index: 20;
+  margin-top: 10px;
+}
+button.btn.right{
+  margin-top: 25px;
+}

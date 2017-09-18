@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-6 image-place">
+    <img src="{{ item.imgPath }}" class="img-responsive">
+  </div>
+  <div class="col-xs-6">
+    <h1>{{ item.name }}</h1>
+    <h3 class="right">{{ item.producer }}</h3>
+    <p>{{ item.description }}</p>
+    <h2 id="price">${{ item.price }}</h2>
+    <p *ngIf="!item.availability" class="sold">SOLD, coming in few days</p>
+    <button class="btn btn-success btn-lg" [disabled]="!item.availability" (click)="addItemToBasket()">Add to basket</button>
+  </div>
+</div>

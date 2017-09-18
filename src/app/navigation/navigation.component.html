@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" routerLink="/list">Entenso Shop</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a routerLink="/basket"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+          <li *ngIf="amountGettter() > 0" class="amountPlace">  {{ amountGettter() }}</li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+#price{
+  font-size: 26px;
+  color: #566566;
+  font-weight: bold;
+}
+.sold{
+  font-weight: bold;
+  color: red;
+  float: right;
+}

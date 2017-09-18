@@ -1,0 +1,7 @@
+.total-price {
+  background-color: darkseagreen;
+}
+.total-price > td {
+  font-size: 18px;
+  font-weight: 600;
+}

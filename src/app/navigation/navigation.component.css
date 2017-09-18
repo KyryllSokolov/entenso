@@ -1,0 +1,14 @@
+span.glyphicon {
+  font-size: 1.5em;
+}
+.amountPlace {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgreen;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 10px;
+  height: 25px;
+  width: 25px;
+  padding-left: 7px;
+}
